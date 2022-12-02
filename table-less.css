@@ -1,19 +1,19 @@
-#divBlobMetaDataGrid{
+#divTable{
     display: table;
     border:1px solid black;
     border-collapse: collapse;
     width: 100%;
 }
 
-#divBlobMetaDataGrid .row{
+#divTable .row{
     display: table-row-group;
 }
 
-#divBlobMetaDataGrid .row:nth-child(even){
+#divTable .row:nth-child(even){
     background: #ddd;
 }
 
-#divBlobMetaDataGrid .row > div{
+#divTable .row > div{
     display: table-cell;
     padding:3px;
     border:1px dotted #333;
